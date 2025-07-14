@@ -2,8 +2,11 @@
 
 ## 项目简介
 
-本项目基于经典 ASP（VBScript）环境，封装了阿里云 DNS 解析（AliDNS）API，实现对域名解析记录的查询、添加、修改和删除功能。适用于在 IIS 上运行的老旧网站或管理平台。
+本项目基于经典 ASP（VBScript）环境，封装了阿里云 DNS 解析（AliDNS）API，官方没有ASP连接阿里云API的版本，网上基本我也没有找到一个可以用的版本。
+实现对域名解析记录的查询、添加、修改和删除功能。适用于在 IIS 上运行的老旧网站或管理平台。
 域名解析页为：records.asp
+
+<img src="2025-07-15_003300.jpg" alt="Screenshot of a web-based domain DNS record management interface for the domain yimai-lok.com. The interface displays a table listing various DNS records, including TXT, CNAME, MX, and A records, with columns for host, type, record value, TTL, status, remarks, and actions. Each record row shows details such as mail, smtp, pop3, imap, and test, along with their respective values and statuses marked as enabled. Action icons for editing, pausing, and deleting are present for each record. The top of the interface features buttons for adding records and switching domains, a search bar, and a filter dropdown. Below the table, there are buttons for batch configuration and explanations of record types. The overall tone is functional and businesslike, designed for technical users managing DNS settings.">
 
 ## 仓库结构
 
