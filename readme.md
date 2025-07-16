@@ -7,6 +7,7 @@
 域名解析页为：records.asp
 
 <img src="2025-07-15_003300.jpg" alt="Screenshot of a web-based domain DNS record management interface for the domain yimai-lok.com. The interface displays a table listing various DNS records, including TXT, CNAME, MX, and A records, with columns for host, type, record value, TTL, status, remarks, and actions. Each record row shows details such as mail, smtp, pop3, imap, and test, along with their respective values and statuses marked as enabled. Action icons for editing, pausing, and deleting are present for each record. The top of the interface features buttons for adding records and switching domains, a search bar, and a filter dropdown. Below the table, there are buttons for batch configuration and explanations of record types. The overall tone is functional and businesslike, designed for technical users managing DNS settings.">
+<img src="2_20250716174903.png" alt="domain query">
 
 ## 仓库结构
 
@@ -16,6 +17,7 @@ aliyun-domain-api/
 │   ├── config.asp       # 常量配置：AccessKeyId、AccessKeySecret（以及可选的API Endpoint）
 │   ├── dns-api.asp      # 主入口，路由分发和请求响应
 │   ├── records.asp      # 域名解析记录操作模块（增删改查）
+│   ├── domainquery.asp  # 域名是否可以注册的查询功能
 │   └── sha1.asp         # HMAC-SHA1 签名实现及 Base64 编码
 └── README.md            # 本说明文档
 ```
